@@ -1,0 +1,17 @@
+{
+    "contents" : "# #####\n# Import script USAID Development Experiences Clearinghouse\n# Ben Mazzotta\n# 2014 08 07\n# #####\n\n\n#   Keep a text log of the session.\nsink(\"logs/import.log\")\n\n# #####\n# 1. Import the 1989 data\n\ndec <- read.csv(\"data/dec1989.csv\")\n\n# Describe the contents in a log file.\nstr(dec)\n\n# Save the file to disk\nsave(dec, file=\"data/dec1989.Rda\")\nsave.image()\n\nsink()\n\n\n# end of file\n# #####",
+    "created" : 1407425566557.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1026351699",
+    "id" : "C2FB25FD",
+    "lastKnownWriteTime" : 1407427020,
+    "path" : "C:/Users/bmazzo01/Rstats/USAID-dec/script/import.R",
+    "project_path" : "script/import.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

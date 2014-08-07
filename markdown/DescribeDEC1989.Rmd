@@ -1,0 +1,29 @@
+---
+title: "Describe the DEC 1989 dataset"
+author: "Ben Mazzotta"
+date: "Thursday, August 07, 2014"
+output: html_document
+---
+
+This file describes the Development Experience Clearinghouse 1989 metadata file.
+
+The source of the data is a hackathon project from 2014....
+
+## Basic description
+
+What's in the datset?
+
+```{r import, fig.width=8, fig.height=4.5}
+load("data/dec1989.Rda")
+
+## How big is it?
+dim(dec)
+
+## What fields does it have?
+names(dec)
+
+## What is the structure?
+str(dec)
+```
+
+End of file.
